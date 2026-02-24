@@ -1,9 +1,7 @@
 public class ServicioUsuarios {
 
     public void ejecutar() {
-        ConfiguracionSistema config = new ConfiguracionSistema(
-                "WasiApp", 8080, false, "https://api.ejemplo.com"
-        );
+        ConfiguracionSistema config = ConfiguracionSistema.getInstancia();
 
         System.out.println("[ServicioUsuarios] Config inicial: " + config);
 
