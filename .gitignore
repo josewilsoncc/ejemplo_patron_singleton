@@ -29,3 +29,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 *.class
+out/production/TallerConfiguracion/ConfiguracionSistema.class
+out/production/TallerConfiguracion/Main.class
+out/production/TallerConfiguracion/ServicioPagos.class
+out/production/TallerConfiguracion/ServicioUsuarios.class
